@@ -1,0 +1,58 @@
+{
+    "__class__": "ManejaColeccion",
+    "agentes": [
+        {
+            "__class__": "Apoyo",
+            "__atributos__": {
+                "cuil": "1111",
+                "apellido": "gomez",
+                "nombre": "pedro",
+                "sueldoB": 10000.0,
+                "antiguedad": 5,
+                "categoria": 15
+            }
+        },
+        {
+            "__class__": "Docente",
+            "__atributos__": {
+                "cuil": "2222",
+                "apellido": "gonzalez",
+                "nombre": "pepe",
+                "sueldoB": 30000.0,
+                "antiguedad": 5,
+                "carrera": "lcc",
+                "cargo": "semiexclusivo",
+                "catedra": "sistemas"
+            }
+        },
+        {
+            "__class__": "Investigador",
+            "__atributos__": {
+                "cuil": "3333",
+                "apellido": "hernandez",
+                "nombre": "felipe",
+                "sueldoB": 20000.0,
+                "antiguedad": 2,
+                "areainv": "area 1",
+                "tipoinv": "tipo 1"
+            }
+        },
+        {
+            "__class__": "DocenteInvestigador",
+            "__atributos__": {
+                "cuil": "4444",
+                "apellido": "diaz",
+                "nombre": "lucia",
+                "sueldoB": 25000.0,
+                "antiguedad": 1,
+                "areainv": "area 2",
+                "tipoinv": "tipo 1",
+                "carrera": "lcc",
+                "cargo": "simple",
+                "catedra": "poo",
+                "impextra": 500.0,
+                "categincent": "V"
+            }
+        }
+    ]
+}
